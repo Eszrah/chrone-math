@@ -149,7 +149,9 @@
     <ClCompile Include="src\Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\algebra\Bivector.h" />
     <ClInclude Include="include\algebra\Matrix.h" />
+    <ClInclude Include="include\algebra\Trivector.h" />
     <ClInclude Include="include\algebra\Vector.h" />
     <ClInclude Include="include\NativeType.h" />
   </ItemGroup>

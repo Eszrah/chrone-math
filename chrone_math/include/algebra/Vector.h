@@ -5,7 +5,7 @@
 namespace chrone::math
 {
 
-template<class T, Uint32 ComponentCount>
+template<class T, Uint32 CompCount>
 struct Vector
 {
 	inline Vector() = default;
@@ -13,7 +13,7 @@ struct Vector
 	inline Vector(Vector&&) = default;
 	~Vector() = default;
 
-	T	data[ComponentCount];
+	T	data[CompCount];
 };
 
 
