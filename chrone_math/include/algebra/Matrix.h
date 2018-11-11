@@ -108,4 +108,14 @@ Matrix<T, 4, 4>::Matrix(
 }
 
 
+template<class T>
+using Matrix3x3 = Matrix<T, 3, 3>;
+using Matrix3x3D32 = Matrix3x3<Decimal32>;
+using Matrix3x3D64 = Matrix3x3<Decimal64>;
+
+
+template<class T>
+using Matrix4x4 = Matrix<T, 4, 4>;
+using Matrix4x4D32 = Matrix4x4<Decimal32>;
+using Matrix4x4D64 = Matrix4x4<Decimal64>;
 }
